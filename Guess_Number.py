@@ -1,4 +1,5 @@
 import random
+
 class GuessNumber:
     
     def __init__(self, number, mn=0, mx=100):
