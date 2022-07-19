@@ -39,5 +39,7 @@ class GuessNumber:
                 break
 
         print(f"You guessed it in {self.guesses} guesses.")
+        
 game = GuessNumber(random.randint(0,100), 0, 100)
+
 game.play()
